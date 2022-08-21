@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600&family=Barlow:wght@200;300;400&family=Libre+Franklin:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+
+.fondo-header {
+    position:sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgb(145, 32, 32);
+    
+}
+
+
+.barra-navegacion {
+    display: flex;
+    list-style: none;
+    font: bolder;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-right: 10px;
+    
+ }
+
+ .barra-navegacion-secciones {
+    display: flex;
+    list-style: none;
+    font:bolder;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+.color-seccion {
+    margin: 5px;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+
+.logo{
+    margin-left: 70px;
+    
+}
+
+h1 {
+    color: black;
+}
+
+.titulo-marcas{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.body :hover{
+    color: rgb(244, 244, 252);
+}
+
+
+.banner{
+    width: 100%;
+}
+
+.titulo-lo-nuevo{
+    margin: 10px;
+    color:white;
+    background-color: black;
+    font-size: 35px;   
+}
+
+.fondo-main{
+    background-color: #f07a0c;
+    min-height: 80vh;
+    
+}
+
+.mensaje-suscripcion{
+    margin: 00px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 55px;
+}
+
+.footer {
+  background-color: black;
+  
+}
+
+.info-footer{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.863);
+    font-size: small;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.redes-footer{
+    background-color: rgba(0, 0, 0, 0.863);
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+     
+}
+
+.boton-aqui{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(215, 240, 148);
+}
+
+.contenido-sucursales{
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.todas-sucursales {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+.titulo-de-seccion{
+   
+    margin-bottom: 30px;
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.formulario-contacto{
+    line-height: 40px;
+    text-align: center;
+}
+
+.tabla-de-talles tr {
+   text-align: center;
+   width: 100%;
+   border-collapse: collapse; 
+   background-color: brown;
+   border: solid 1px black;
+   padding: 10px;
+   
+}
+
+.tabla-de-talles {
+    display: flex;
+    justify-content: center;
+
+}
+
+.segundos-titulos-talles{
+    margin: 20px;
+    color:black;
+    font-size: 20px;
+    justify-items: center;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+.contenido-talles{
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+}
+
+.segundos-titulos-nosotros{
+    text-align: center;
+    margin: 5px;
+    font-style: italic;
+}
+
+
+.contenido-nosotros{
+    padding: 20px;
+    text-align: center;
+}
+
+.exterior-cards{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.interior-cards {
+    color: white;
+    width: 250px;
+    border: solid black 1px;
+    background-color: rgb(145, 32, 32);
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.descripcion-producto{
+    padding: 12px;
+    margin-bottom: 10px;
+    
+}
+
+.listas-descripcion-producto{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.imagen{
+    width: 100%; 
+
+}
+
+.boton-comprar{
+    text-decoration: none;
+    color: white;
+    background-color: #f07a0c;
+    padding: 8px;
+    border-radius: 5px;
+    
+}
+
+@media (max-width:715px){
+    .logo{
+        margin-left: 0 ;
+        
+    }
+
+
+    .fondo-header{
+        flex-direction: column;
+        font-size: 16px;
+        position:sticky;
+        top: 0;
+    }
+
+    .barra-navegacion{
+        margin-bottom: 10px;
+        list-style: none;
+    }
+
+    .titulo-lo-nuevo{
+        font-size: 26px;
+    }
+
+    .titulo-marcas{
+        font-size: 37px;
+    }
+
+    .mensaje-suscripcion{
+        font-size: medium;
+    }
+
+    .info-footer{
+        font-size: small;
+        margin: 0 10px 0 20px;
+    }
+
+    .exterior-cards{
+        justify-content: center;
+    }
+
+    .titulo-de-seccion{
+        font-size: 36px;
+        padding-top: 20px;
+    }
+
+    .contenido-sucursales{
+        font-size: 16px;
+        margin: 0 10px 0 10px;
+    }
+
+    .todas-sucursales p{
+        font-size: 14px;
+        justify-content: center;
+        justify-items: center;
+        margin: 0 10px 0 10px;
+    } 
+
+
+}
+
+@media (max-width: 550px){
+    .fondo-header{
+        flex-direction: column;
+        font-size: 14px;
+        position:sticky;
+        top: 0;
+    }
+    .info-footer{
+        font-size: x-small;
+        margin: 0 10px 0 20px;
+    }
+
+    .titulo-lo-nuevo{
+        font-size: 20px;
+    }
+
+    .titulo-marcas{
+        font-size: 30px;
+    }
+    
+    .mensaje-suscripcion{
+        font-size: small;
+    }
+
+    .exterior-cards{
+        justify-content: center;
+    }
+
+    .titulo-de-seccion{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .segundos-titulos-nosotros{
+        font-size: 15px;
+    }
+
+    .contenido-nosotros{
+        font-size: 13px;
+    }
+
+    .contenido-sucursales{
+        font-size: 14px;
+        margin: 0 10px 0 10px;
+    }
+    .todas-sucursales p{
+        font-size: 14px;
+        justify-content: center;
+        justify-items: center;
+        margin: 0 10px 0 10px;
+    } 
+
+    .logo{
+        margin-left: 0px;
+        
+    }
+    
+    .formulario-contacto{
+        font-size: 13px;
+    }
+
+    .segundos-titulos-talles{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .contenido-talles{
+        font-size: 13px;
+        justify-content: center;
+        margin: 0 10px 0 10px;
+        text-decoration: none;
+        list-style: none;
+
+    }
+
+    .barra-navegacion{
+        margin-bottom: 10px;
+        list-style: none;
+    }
+
+}
+
+ 
+    
+    
+    
+   
