@@ -72,10 +72,18 @@ h1 {
 }
 
 .titulo-lo-nuevo{
+    display: inline;
+    background-color: #1C1C1C;
     margin: 10px;
     color:white;
-    background-color: black;
-    font-size: 35px;   
+    font-weight:100 black;
+    font-size: 30px; 
+    
+}
+
+.main a{
+    transform: rotateX(150px);
+    transition: 3s;
 }
 
 .fondo-main{
@@ -158,6 +166,14 @@ h1 {
     text-align: center;
 }
 
+.formulario-contacto :focus{
+    border-radius: 10px;
+    transition: .3s;
+    background-color: rgb(174, 245, 220);
+
+
+}
+
 .tabla-de-talles tr {
    text-align: center;
    width: 100%;
@@ -204,7 +220,7 @@ h1 {
 
 .exterior-cards{
     background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
- background-blend-mode: multiply;
+    background-blend-mode: multiply;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
