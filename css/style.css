@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
-    background-color: rgb(145, 32, 32);
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
     
 }
 
@@ -79,8 +79,8 @@ h1 {
 }
 
 .fondo-main{
-    background-color: #f07a0c;
-    min-height: 80vh;
+     min-height: 80vh;
+     background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
     
 }
 
@@ -203,7 +203,8 @@ h1 {
 }
 
 .exterior-cards{
-    background-color: black;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -224,7 +225,13 @@ h1 {
     align-items: center;
     margin: 20px 20px 20px 20px;
     padding: 10px 10px 10px 10px;
+    
 
+}
+
+.interior-cards :hover{
+    transform: scale(1.1); translate: (30px, 30px);
+    transition: .3s;
 }
 
 .descripcion-producto{
