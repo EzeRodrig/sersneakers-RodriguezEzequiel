@@ -1,0 +1,51 @@
+.fondo-main{
+    .titulo-de-seccion{
+   
+        margin-bottom: 30px;
+        color: black;
+        font-size: 45px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .tabla-de-talles tr {
+        text-align: center;
+        width: 100%;
+        border-collapse: collapse; 
+        background-color: brown;
+        border: solid 1px black;
+        padding: 10px;
+        
+    }
+
+    .tabla-de-talles {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .segundos-titulos-talles{
+        margin: 210px 20px 10px 20px;
+        color:black;
+        font-size: 20px;
+        justify-items: center;
+        text-decoration: underline;
+        margin-bottom: 40px;
+    }
+
+    .contenido-talles{
+        text-decoration: none;
+        justify-content: center;
+        margin: 10px 20px 10px 25px;
+        
+    }
+
+    .contenido-talles-lista{
+        text-decoration: none;
+        justify-content: center;
+        margin: 10px 20px 10px 10px;
+        
+    }
+    
+}

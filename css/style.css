@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600&family=Barlow:wght@200;300;400&family=Libre+Franklin:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.body :hover {
+  color: rgb(244, 244, 252);
+}
+
+.fondo-main {
+  min-height: 80vh;
+  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+.fondo-main .titulo-lo-nuevo {
+  display: inline;
+  background-color: #1C1C1C;
+  margin: 10px;
+  color: white;
+  font-weight: 100 black;
+  font-size: 30px;
+}
+.fondo-main .titulo-marcas {
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.fondo-main .exterior-cards {
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.fondo-main .exterior-cards .interior-cards {
+  color: white;
+  width: 250px;
+  border: solid black 1px;
+  background-color: rgb(145, 32, 32);
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
+.fondo-main .exterior-cards .interior-cards .imagen {
+  width: 100%;
+}
+.fondo-main .exterior-cards .interior-cards .descripcion-producto {
+  padding: 12px;
+  margin-bottom: 10px;
+}
+.fondo-main .exterior-cards .interior-cards .descripcion-producto .listas-descripcion-producto {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+}
+.fondo-main .exterior-cards .interior-cards .descripcion-producto .boton-comprar {
+  text-decoration: none;
+  color: white;
+  background-color: #f07a0c;
+  padding: 8px;
+  border-radius: 5px;
+}
+.fondo-main .mensaje-suscripcion {
+  margin: 0px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 55px;
+}
+.fondo-main .mensaje-suscripcion .input {
+  width: 140px;
+  height: 32px;
+}
+
+header .fondo-header {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+}
+header .fondo-header .logo {
+  margin-left: 70px;
+  margin-right: 140px;
+}
+header .fondo-header .nav-link {
+  font-weight: bolder;
+  font: 18px;
+}
+
+.footer {
+  background-color: black;
+}
+.footer .redes-footer {
+  background-color: rgba(0, 0, 0, 0.863);
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.footer .info-footer {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.863);
+  font-size: small;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fondo-main .titulo-de-seccion {
+  margin-bottom: 30px;
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.fondo-main .tabla-de-talles tr {
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: brown;
+  border: solid 1px black;
+  padding: 10px;
+}
+.fondo-main .tabla-de-talles {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.fondo-main .segundos-titulos-talles {
+  margin: 210px 20px 10px 20px;
+  color: black;
+  font-size: 20px;
+  justify-items: center;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+.fondo-main .contenido-talles {
+  text-decoration: none;
+  justify-content: center;
+  margin: 10px 20px 10px 25px;
+}
+.fondo-main .contenido-talles-lista {
+  text-decoration: none;
+  justify-content: center;
+  margin: 10px 20px 10px 10px;
+}
+
+.fondo-main .titulo-de-seccion {
+  margin-bottom: 30px;
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.fondo-main .segundos-titulos-nosotros {
+  text-align: center;
+  margin: 5px;
+  font-style: italic;
+  font-stretch: expanded;
+  text-decoration: underline;
+}
+.fondo-main .contenido-nosotros {
+  padding: 20px;
+  text-align: center;
+}
+
+.fondo-main .titulo-de-seccion {
+  margin-bottom: 30px;
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.fondo-main .contenido-sucursales {
+  font-size: 18px;
+  margin-bottom: 40px;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+}
+.fondo-main .todas-sucursales {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.fondo-main {
+  min-height: 80vh;
+  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+.fondo-main .titulo-de-seccion {
+  margin-bottom: 30px;
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.fondo-main .formulario-contacto {
+  line-height: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fondo-main .formulario-contacto .boton-contactos {
+  margin: 10px 0 0 0;
+}
+
+@media (max-width: 715px) {
+  header .fondo-header {
+    flex-direction: column;
+    font-size: 16px;
+    /* position:sticky; */
+    top: 0;
+  }
+  header .fondo-header .logo {
+    margin-left: 0;
+  }
+  header .barra-navegacion {
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  .fondo-main .titulo-lo-nuevo {
+    font-size: 26px;
+  }
+  .fondo-main .titulo-marcas {
+    font-size: 37px;
+  }
+  .fondo-main .exterior-cards {
+    justify-content: center;
+  }
+  .fondo-main .mensaje-suscripcion {
+    font-size: medium;
+  }
+  .fondo-main .mensaje-suscripcion .input {
+    width: 120px;
+    height: 28px;
+  }
+  .fondo-main .titulo-de-seccion {
+    font-size: 36px;
+    padding-top: 20px;
+  }
+  .fondo-main .contenido-sucursales {
+    font-size: 16px;
+    margin: 0 10px 0 10px;
+  }
+  .fondo-main .todas-sucursales p {
+    font-size: 14px;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 10px 0 10px;
+  }
+  .footer .info-footer {
+    font-size: small;
+    margin: 0 10px 0 20px;
+  }
+}
+@media (max-width: 550px) {
+  header .fondo-header {
+    flex-direction: column;
+    font-size: 14px;
+    /* position:sticky; */
+    top: 0;
+  }
+  header .fondo-header .logo {
+    margin-left: 0px;
+  }
+  header .barra-navegacion {
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  .fondo-main .titulo-lo-nuevo {
+    font-size: 20px;
+  }
+  .fondo-main .titulo-marcas {
+    font-size: 30px;
+  }
+  .fondo-main .exterior-cards {
+    justify-content: center;
+  }
+  .fondo-main .mensaje-suscripcion {
+    font-size: small;
+  }
+  .fondo-main .mensaje-suscripcion .input {
+    width: 105px;
+    height: 24px;
+  }
+  .fondo-main .titulo-de-seccion {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  .fondo-main .contenido-sucursales {
+    font-size: 14px;
+    margin: 0 10px 0 10px;
+  }
+  .fondo-main .todas-sucursales p {
+    font-size: 14px;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 10px 0 10px;
+  }
+  .fondo-main .segundos-titulos-nosotros {
+    font-size: 15px;
+  }
+  .fondo-main .contenido-nosotros {
+    font-size: 13px;
+  }
+  .fondo-main .formulario-contacto {
+    font-size: 13px;
+  }
+  .fondo-main .segundos-titulos-talles {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .fondo-main .contenido-talles {
+    font-size: 13px;
+    justify-content: center;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    list-style: none;
+  }
+  .footer .info-footer {
+    font-size: x-small;
+    margin: 0 10px 0 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

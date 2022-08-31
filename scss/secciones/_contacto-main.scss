@@ -1,0 +1,27 @@
+.fondo-main{
+    min-height: 80vh;
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    .titulo-de-seccion{
+   
+        margin-bottom: 30px;
+        color: black;
+        font-size: 45px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .formulario-contacto{
+        line-height: 40px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .boton-contactos{
+            margin: 10px 0 0 0;
+        }
+        
+    }
+
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600&family=Barlow:wght@200;300;400&family=Libre+Franklin:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+
+.body :hover{
+    color: rgb(244, 244, 252);
+}
+
+@import "./secciones/index-main";
+@import "./secciones/header";
+@import "./secciones/footer";
+@import "./secciones/talles-main";
+@import "./secciones/nosotros-main";
+@import "./secciones/sucursales-main";
+@import "./secciones/contacto-main";
+
+@import "./media-querys/mobile-firts";
+
+
+

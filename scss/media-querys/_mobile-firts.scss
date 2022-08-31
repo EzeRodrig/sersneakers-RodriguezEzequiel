@@ -1,0 +1,161 @@
+@media (max-width:715px){
+    header{
+        .fondo-header{
+            flex-direction: column;
+            font-size: 16px;
+            /* position:sticky; */
+            top: 0;
+            .logo{
+                margin-left: 0 ;
+                
+            }
+        }
+
+        .barra-navegacion{
+            margin-bottom: 10px;
+            list-style: none;
+        }
+
+    }
+    .fondo-main{
+        .titulo-lo-nuevo{
+            font-size: 26px;
+        }
+
+        .titulo-marcas{
+            font-size: 37px;
+        }
+
+        .exterior-cards{
+            justify-content: center;
+        }
+        .mensaje-suscripcion{
+            font-size: medium;
+            .input{
+                width: 120px;
+                height: 28px;
+            }
+        }
+
+        .titulo-de-seccion{
+            font-size: 36px;
+            padding-top: 20px;
+        }
+
+        .contenido-sucursales{
+            font-size: 16px;
+            margin: 0 10px 0 10px;
+        }
+
+        .todas-sucursales p{
+            font-size: 14px;
+            justify-content: center;
+            justify-items: center;
+            margin: 0 10px 0 10px;
+        }
+    }
+
+    .footer{
+        .info-footer{
+            font-size: small;
+            margin: 0 10px 0 20px;
+        }
+    }
+
+
+}
+
+@media (max-width: 550px){
+    header{
+        .fondo-header{
+            flex-direction: column;
+            font-size: 14px;
+            /* position:sticky; */
+            top: 0;
+        
+            .logo{
+                margin-left: 0px;
+                
+            }
+        }
+
+        .barra-navegacion{
+            margin-bottom: 10px;
+            list-style: none;
+        }
+
+    }
+
+    .fondo-main{
+        .titulo-lo-nuevo{
+            font-size: 20px;
+        }
+
+        .titulo-marcas{
+            font-size: 30px;
+        }
+
+        .exterior-cards{
+            justify-content: center;
+        }
+
+        .mensaje-suscripcion{
+            font-size: small;
+            .input{
+                width: 105px;
+                height: 24px;
+            }
+        }
+
+        .titulo-de-seccion{
+            font-size: 30px;
+            padding-top: 20px;
+        }
+
+        .contenido-sucursales{
+            font-size: 14px;
+            margin: 0 10px 0 10px;
+        }
+        .todas-sucursales p{
+            font-size: 14px;
+            justify-content: center;
+            justify-items: center;
+            margin: 0 10px 0 10px;
+        } 
+
+        .segundos-titulos-nosotros{
+            font-size: 15px;
+        }
+    
+        .contenido-nosotros{
+            font-size: 13px;
+        }
+
+        .formulario-contacto{
+            font-size: 13px;
+        }
+
+        .segundos-titulos-talles{
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .contenido-talles{
+            font-size: 13px;
+            justify-content: center;
+            margin: 0 10px 0 10px;
+            text-decoration: none;
+            list-style: none;
+    
+        }
+    }
+
+    .footer{
+        .info-footer{
+            font-size: x-small;
+        margin: 0 10px 0 20px;
+        }
+    }
+
+
+}

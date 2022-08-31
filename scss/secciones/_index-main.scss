@@ -1,0 +1,91 @@
+.fondo-main{
+    min-height: 80vh;
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+
+    
+    .titulo-lo-nuevo{
+        display: inline;
+        background-color: #1C1C1C;
+        margin: 10px;
+        color:white;
+        font-weight:100 black;
+        font-size: 30px; 
+        
+
+    }
+        
+    .titulo-marcas{
+        color: black;
+        font-size: 45px;
+        text-align: center;
+        font-weight: bolder;
+        margin-bottom: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .exterior-cards{
+        background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+        background-blend-mode: multiply;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .interior-cards {
+            color: white;
+            width: 250px;
+            border: solid black 1px;
+            background-color: rgb(145, 32, 32);
+            align-items: center;
+            text-align: center;
+            border-radius: 10px;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            margin: 20px 20px 20px 20px;
+            padding: 10px 10px 10px 10px;
+
+            .imagen{
+                width: 100%; 
+            
+            }
+
+            .descripcion-producto{
+                padding: 12px;
+                margin-bottom: 10px;
+
+                .listas-descripcion-producto{
+                    text-decoration: none;
+                    list-style: none;
+                    padding-left: 0;
+                
+                }
+
+                .boton-comprar{
+                    text-decoration: none;
+                    color: white;
+                    background-color: #f07a0c;
+                    padding: 8px;
+                    border-radius: 5px;
+                    
+                }
+                
+            }
+            
+        
+        }
+    
+    }
+
+    .mensaje-suscripcion{
+        margin: 00px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 55px;
+
+        .input{
+            width: 140px;
+            height: 32px;
+        }
+    }
+}
