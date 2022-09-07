@@ -1,0 +1,32 @@
+-Agregue SEO al sitio:
+
+   1) Ingresé meta keywords todos los html del sitio:
+   -Index: "sneakers, zapatillas, calzado, nike, adidas, puma"
+   -Talles: "guia, talles, medir, ar, us, cm"
+   -Sucursales: "sucursales, mapa, maps, ubicación"
+   -Nosotros: "nosotros, objetivos, quienes, somos"
+   -Contacto: "contacto, mail, consultas, dudas, mensaje"
+
+   2) Ingresé meta description todos los html del sitio:
+   -Index: "En SER Sneakers vas a encontrar tus nuevos sneakers, tenemos las mejores marcas y los precios mas bajos"
+   -Talles: "Descripción de talles, instructivo para seleccionar cuál es el talle correcto"
+   -Sucursales: "Ubicación de todas las sucursales de SER Sneakers, con su mapa correspondiente"
+   -Nosotros: "Información sobre nosotros, a que nos dedicamos y cuales son nuestros objetivos"
+   -Contacto: "Espacio para que nuestros clientes se contacten dejando sus datos y consultas"
+
+   3) Modifiqué title en todos los html del sitio:
+   -Index: SER SNEAKERS | Inicio
+   -Talles: SER SNEAKERS | Talles
+   -Sucursales: SER SNEAKERS | Sucursales
+   -Nosotros: SER SNEAKERS | Nosotros
+   -Contacto: SER SNEAKERS | Contacto
+
+   4) Agregué breadcrumb en todas las pages:
+   -Index: Inicio
+   -Talles: Inicio / Talles
+   -Sucursales: Inicio / Sucursales
+   -Nosotros: Inicio / Nosotros
+   -Contacto: Inicio / Contacto
+
+
+   5) Realicé el mapa de sitio del buscador desde xmsitemaps
