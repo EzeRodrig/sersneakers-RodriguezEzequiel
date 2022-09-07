@@ -1,12 +1,8 @@
 .fondo-main{
     .titulo-de-seccion{
+        @extend %titulos-cada-seccion;
+        @include fondo-titulos (black);
    
-        margin-bottom: 30px;
-        color: black;
-        font-size: 45px;
-        text-align: center;
-        font-weight: bolder;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .tabla-de-talles tr {

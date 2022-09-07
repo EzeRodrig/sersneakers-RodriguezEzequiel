@@ -1,12 +1,7 @@
 .fondo-main{
     .titulo-de-seccion{
    
-        margin-bottom: 30px;
-        color: black;
-        font-size: 45px;
-        text-align: center;
-        font-weight: bolder;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        @extend %titulos-cada-seccion;
     }
 
     .segundos-titulos-nosotros{

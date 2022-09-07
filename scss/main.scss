@@ -4,13 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Libre Franklin', sans-serif;
-    
+    font-family: 'Libre Franklin', sans-serif; 
 }
 
 .body :hover{
     color: rgb(244, 244, 252);
 }
+
+@import "./secciones/variables/extend";
 
 @import "./secciones/index-main";
 @import "./secciones/header";
