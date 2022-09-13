@@ -154,7 +154,7 @@ header .fondo-header {
   text-decoration: underline; }
 
 .fondo-main .contenido-nosotros {
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   text-align: center; }
 
 .fondo-main .contenido-sucursales {
