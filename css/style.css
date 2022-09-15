@@ -56,9 +56,15 @@
       flex-direction: column;
       align-items: center;
       margin: 20px 20px 20px 20px;
-      padding: 10px 10px 10px 10px; }
+      padding: 10px 10px 10px 10px; 
+     }
       .fondo-main .exterior-cards .interior-cards .imagen {
-        width: 100%; }
+        width: 100%;
+       }
+       .fondo-main .exterior-cards .interior-cards .imagen :hover{
+        transform: scale(1.1); translate: (30px, 30px);
+        transition: .3s;
+     }
       .fondo-main .exterior-cards .interior-cards .descripcion-producto {
         padding: 12px;
         margin-bottom: 10px; }

@@ -9,6 +9,12 @@
 
 .body :hover{
     color: rgb(244, 244, 252);
+    transition: 3s;
+}
+
+.fondo-main .exterior-cards .interior-cards .imagen :hover{
+    transform: scale(1.1); translate: (30px, 30px);
+    transition: .3s;
 }
 
 @import "./secciones/variables/extend";
