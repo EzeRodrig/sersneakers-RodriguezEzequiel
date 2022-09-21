@@ -6,7 +6,13 @@
   font-family: 'Libre Franklin', sans-serif; }
 
 .body :hover {
-  color: #f4f4fc; }
+  color: #f4f4fc;
+  transition: .3s; }
+
+.fondo-main .exterior-cards .interior-cards .imagen :hover {
+  transform: scale(1.1);
+  translate: 30px, 30px;
+  transition: .3s; }
 
 .fondo-main .titulo-de-seccion {
   margin-bottom: 30px;
@@ -18,7 +24,7 @@
 
 .fondo-main {
   min-height: 80vh;
-  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%); }
+  background-color: #f07a0c; }
   .fondo-main .migas-de-pan {
     font-size: 17px;
     font-weight: black;
@@ -56,15 +62,9 @@
       flex-direction: column;
       align-items: center;
       margin: 20px 20px 20px 20px;
-      padding: 10px 10px 10px 10px; 
-     }
+      padding: 10px 10px 10px 10px; }
       .fondo-main .exterior-cards .interior-cards .imagen {
-        width: 100%;
-       }
-       .fondo-main .exterior-cards .interior-cards .imagen :hover{
-        transform: scale(1.1); translate: (30px, 30px);
-        transition: .3s;
-     }
+        width: 100%; }
       .fondo-main .exterior-cards .interior-cards .descripcion-producto {
         padding: 12px;
         margin-bottom: 10px; }
@@ -74,7 +74,7 @@
           padding-left: 0; }
         .fondo-main .exterior-cards .interior-cards .descripcion-producto .boton-comprar {
           text-decoration: none;
-          color: white;
+          color: black;
           background-color: #f07a0c;
           padding: 8px;
           border-radius: 5px; }
@@ -92,7 +92,8 @@ header .fondo-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%); }
+  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+  min-height: 10vh; }
   header .fondo-header .logo {
     margin-left: 70px;
     margin-right: 140px; }
@@ -101,7 +102,8 @@ header .fondo-header {
     font: 18px; }
 
 .footer {
-  background-color: black; }
+  background-color: black;
+  min-height: 10vh; }
   .footer .redes-footer {
     background-color: rgba(0, 0, 0, 0.863);
     display: flex;
@@ -118,65 +120,60 @@ header .fondo-header {
     flex-direction: column;
     align-items: center; }
 
-.fondo-main .titulo-de-seccion {
-  background-color: black; }
+.fondo-main {
+  min-height: 80vh; }
+  .fondo-main .titulo-de-seccion {
+    background-color: rgba(0, 0, 0, 0.849); }
+  .fondo-main .table-responsive {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 275px 0px 275px; }
+  .fondo-main .cards-talles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap; }
+    .fondo-main .cards-talles .card {
+      color: white;
+      max-width: 800px;
+      background-color: rgba(185, 16, 16, 0.548);
+      overflow: hidden;
+      margin-bottom: 20px; }
 
-.fondo-main .tabla-de-talles tr {
-  text-align: center;
-  width: 100%;
-  border-collapse: collapse;
-  background-color: brown;
-  border: solid 1px black;
-  padding: 10px; }
+.fondo-main {
+  min-height: 80vh; }
+  .fondo-main .nosotros {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0px 250px 0px 250px; }
+    .fondo-main .nosotros .accordion-button {
+      background-color: brown; }
+    .fondo-main .nosotros .accordion-body {
+      background-color: rgba(185, 16, 16, 0.548);
+      overflow: hidden; }
 
-.fondo-main .tabla-de-talles {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px; }
-
-.fondo-main .segundos-titulos-talles {
-  margin: 210px 20px 10px 20px;
-  color: black;
-  font-size: 20px;
-  justify-items: center;
-  text-decoration: underline;
-  margin-bottom: 40px; }
-
-.fondo-main .contenido-talles {
-  text-decoration: none;
-  justify-content: center;
-  margin: 10px 20px 10px 25px; }
-
-.fondo-main .contenido-talles-lista {
-  text-decoration: none;
-  justify-content: center;
-  margin: 10px 20px 10px 10px; }
-
-.fondo-main .segundos-titulos-nosotros {
-  text-align: center;
-  margin: 5px;
-  font-style: italic;
-  font-stretch: expanded;
-  text-decoration: underline; }
-
-.fondo-main .contenido-nosotros {
-  padding: 20px 20px 0 20px;
-  text-align: center; }
-
-.fondo-main .contenido-sucursales {
-  font-size: 18px;
-  margin-bottom: 40px;
-  font-style: oblique;
-  font-weight: bold;
-  text-align: center; }
-
-.fondo-main .todas-sucursales {
-  max-width: 850px;
-  display: grid;
-  grid-template-columns: repeat(2 1fr);
-  justify-items: center;
-  align-items: center;
-  justify-content: center; }
+.fondo-main {
+  min-height: 80vh; }
+  .fondo-main .contenido-sucursales {
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center; }
+  .fondo-main .todas-sucursales {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: center; }
 
 .fondo-main {
   min-height: 80vh;
@@ -223,6 +220,8 @@ header .fondo-header {
     justify-content: center;
     justify-items: center;
     margin: 0 10px 0 10px; }
+  .fondo-main .table-responsive {
+    margin-left: 100px; }
   .footer .info-footer {
     font-size: small;
     margin: 0 10px 0 20px; } }
@@ -252,6 +251,8 @@ header .fondo-header {
   .fondo-main .titulo-de-seccion {
     font-size: 30px;
     padding-top: 20px; }
+  .fondo-main .table-responsive {
+    margin-left: 10px; }
   .fondo-main .contenido-sucursales {
     font-size: 14px;
     margin: 0 10px 0 10px; }

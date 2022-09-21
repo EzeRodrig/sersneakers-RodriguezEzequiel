@@ -1,47 +1,46 @@
 .fondo-main{
+    min-height: 80vh;
+    
     .titulo-de-seccion{
         @extend %titulos-cada-seccion;
-        @include fondo-titulos (black);
+        @include fondo-titulos (rgba(0, 0, 0, 0.849));
    
     }
 
-    .tabla-de-talles tr {
-        text-align: center;
-        width: 100%;
-        border-collapse: collapse; 
-        background-color: brown;
-        border: solid 1px black;
-        padding: 10px;
-        
-    }
-
-    .tabla-de-talles {
+    .table-responsive{
+        max-width: 800px;
         display: flex;
         justify-content: center;
-        margin-bottom: 40px;
-    }
+        text-align: center;
+        margin: 0px 275px 0px 275px;
 
-    .segundos-titulos-talles{
-        margin: 210px 20px 10px 20px;
-        color:black;
-        font-size: 20px;
-        justify-items: center;
-        text-decoration: underline;
-        margin-bottom: 40px;
-    }
-
-    .contenido-talles{
-        text-decoration: none;
-        justify-content: center;
-        margin: 10px 20px 10px 25px;
         
     }
 
-    .contenido-talles-lista{
-        text-decoration: none;
-        justify-content: center;
-        margin: 10px 20px 10px 10px;
+    
+    .cards-talles{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+
+
+        .card{
+        color: white;
+        max-width: 800px;
+        background-color: rgba(185, 16, 16, 0.548);
+        overflow: hidden;
+        margin-bottom: 20px;
+
+       }
+
+    
         
     }
+    
+    
+        
+
     
 }

@@ -1,19 +1,35 @@
 .fondo-main{
+    min-height: 80vh;
     .titulo-de-seccion{
    
         @extend %titulos-cada-seccion;
     }
 
-    .segundos-titulos-nosotros{
-        text-align: center;
-        margin: 5px;
-        font-style: italic;
-        font-stretch: expanded;
-        text-decoration: underline;
-    }
+    .nosotros{
 
-    .contenido-nosotros{
-        padding: 20px 20px 0px 20px;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 800px;
+        margin: 0px 250px 0px 250px;
+        
+
+        .accordion-button{
+            background-color: brown;
+
+        }
+
+        .accordion-body{
+            background-color: rgba(185, 16, 16, 0.548);
+            overflow: hidden;
+        }
+
+      
+        
+       
+        
+      
     }
 }
