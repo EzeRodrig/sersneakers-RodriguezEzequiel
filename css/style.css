@@ -44,8 +44,7 @@
     margin-bottom: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
   .fondo-main .exterior-cards {
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
-    background-blend-mode: multiply;
+    background: #6b3535;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -62,7 +61,8 @@
       flex-direction: column;
       align-items: center;
       margin: 20px 20px 20px 20px;
-      padding: 10px 10px 10px 10px; }
+      padding: 10px 10px 10px 10px;
+      box-shadow: 0 5px 10px #000; }
       .fondo-main .exterior-cards .interior-cards .imagen {
         width: 100%; }
       .fondo-main .exterior-cards .interior-cards .descripcion-producto {
@@ -78,6 +78,8 @@
           background-color: #f07a0c;
           padding: 8px;
           border-radius: 5px; }
+          .fondo-main .exterior-cards .interior-cards .descripcion-producto .boton-comprar .a {
+            color: white; }
   .fondo-main .mensaje-suscripcion {
     margin: 00px;
     font-size: 18px;
@@ -150,9 +152,7 @@ header .fondo-header {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    align-items: center;
-    max-width: 800px;
-    margin: 0px 250px 0px 250px; }
+    align-items: center; }
     .fondo-main .nosotros .accordion-button {
       background-color: brown; }
     .fondo-main .nosotros .accordion-body {
@@ -163,17 +163,35 @@ header .fondo-header {
   min-height: 80vh; }
   .fondo-main .contenido-sucursales {
     font-size: 18px;
-    margin-bottom: 40px;
+    max-width: 800px;
     font-style: oblique;
     font-weight: bold;
-    text-align: center; }
-  .fondo-main .todas-sucursales {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px; }
+  .fondo-main .container-sucursales {
     max-width: 850px;
-    display: grid;
-    grid-template-columns: repeat(2 1fr);
-    justify-items: center;
-    align-items: center;
-    justify-content: center; }
+    margin: auto; }
+    .fondo-main .container-sucursales .todas-sucursales {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: wrap; }
+      .fondo-main .container-sucursales .todas-sucursales .sucursal {
+        background-color: rgba(0, 0, 0, 0.397);
+        width: 400px;
+        margin: auto;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-evenly; }
 
 .fondo-main {
   min-height: 80vh;
@@ -183,7 +201,13 @@ header .fondo-header {
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 400px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px; }
     .fondo-main .formulario-contacto .boton-contactos {
       margin: 10px 0 0 0; }
 

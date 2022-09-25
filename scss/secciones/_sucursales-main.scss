@@ -1,25 +1,52 @@
-.fondo-main{
+.fondo-main {
     min-height: 80vh;
-    .titulo-de-seccion{
+
+    .titulo-de-seccion {
         @extend %titulos-cada-seccion;
-   
+
     }
 
-    .contenido-sucursales{
+    .contenido-sucursales {
         font-size: 18px;
-        margin-bottom: 40px;
+        max-width: 800px;
         font-style: oblique;
         font-weight: bold;
         text-align: center;
+        margin: auto;
+        margin-bottom: 30px;
     }
 
-    .todas-sucursales {
+    .container-sucursales {
         max-width: 850px;
-        display: grid;
-        grid-template-columns: repeat(2 1fr);
-        justify-items: center;
-        align-items: center;
-        justify-content: center;
-    
+        margin: auto;
+
+        .todas-sucursales {
+
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            .sucursal {
+                background-color: rgba(0, 0, 0, 0.397);
+                width: 400px;
+                margin: auto;
+                padding: 10px 20px;
+                box-sizing: border-box;
+                border-radius: 7px;
+                margin-bottom: 20px;
+                display: flex;
+                align-items: center;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+
+        }
+
+
     }
+
 }
