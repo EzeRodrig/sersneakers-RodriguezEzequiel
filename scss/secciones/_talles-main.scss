@@ -1,25 +1,25 @@
-.fondo-main{
+.fondo-main {
     min-height: 80vh;
-    
-    .titulo-de-seccion{
+
+    .titulo-de-seccion {
         @extend %titulos-cada-seccion;
         @include fondo-titulos (rgba(0, 0, 0, 0.849));
-   
+
     }
 
-    .table-responsive{
+    .table-responsive {
         max-width: 800px;
         display: flex;
         justify-content: center;
         text-align: center;
         margin: 0px 275px 0px 275px;
-        
 
-        
+
+
     }
 
-    
-    .cards-talles{
+
+    .cards-talles {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -27,21 +27,21 @@
         flex-wrap: nowrap;
 
 
-        .card{
-        color: white;
-        max-width: 800px;
-        background-color: rgba(185, 16, 16, 0.548);
-        overflow: hidden;
-        margin-bottom: 20px;
+        .card {
+            color: white;
+            max-width: 800px;
+            background-color: rgba(185, 16, 16, 0.548);
+            overflow: hidden;
+            margin-bottom: 20px;
 
-       }
+        }
 
-    
-        
+
+
     }
-    
-    
-        
 
-    
+
+
+
+
 }

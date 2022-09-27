@@ -1,17 +1,17 @@
-.footer{
+.footer {
     background-color: black;
     min-height: 10vh;
 
-    .redes-footer{
+    .redes-footer {
         background-color: rgba(0, 0, 0, 0.863);
         display: flex;
         width: 400px;
         margin: 0 auto;
         justify-content: center;
-         
+
     }
 
-    .info-footer{
+    .info-footer {
         color: white;
         background-color: rgba(0, 0, 0, 0.863);
         font-size: small;
@@ -20,6 +20,6 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        
+
     }
 }

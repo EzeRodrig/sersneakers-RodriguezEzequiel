@@ -1,149 +1,154 @@
-.fondo-main{
-    min-height: 80vh;
-    background-color: #f07a0c;
+.fondo-main {
+  min-height: 80vh;
+  background-color: #f07a0c;
 
-    .migas-de-pan{
-        font-size: 17px;
-        font-weight:black;
-        margin: 0 0 0 10px;
+  .migas-de-pan {
+    font-size: 17px;
+    font-weight: black;
+    margin: 0 0 0 10px;
 
-    }
+  }
 
-    
-    .titulo-lo-nuevo{
-        display: inline;
-        background-color: #1C1C1C;
-        margin: 10px;
-        color:white;
-        font-weight:100 black;
-        font-size: 30px;
-        
-        
 
-    }
+  .titulo-lo-nuevo {
+    display: inline;
+    background-color: #1C1C1C;
+    margin: 10px;
+    color: white;
+    font-weight: 100 black;
+    font-size: 30px;
 
-    .tracking-in-expand-fwd {
-        -webkit-animation: tracking-in-expand-fwd 2s infinite ;
-                animation: tracking-in-expand-fwd 2s infinite ;
-    }
-        
-    .titulo-marcas{
-        color: black;
-        font-size: 45px;
-        text-align: center;
-        font-weight: bolder;
+
+
+  }
+
+  .tracking-in-expand-fwd {
+    -webkit-animation: tracking-in-expand-fwd 2s infinite;
+    animation: tracking-in-expand-fwd 2s infinite;
+  }
+
+  .titulo-marcas {
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .exterior-cards {
+    background: #6b3535;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .interior-cards {
+      color: white;
+      width: 250px;
+      border: solid black 1px;
+      background-color: rgb(145, 32, 32);
+      align-items: center;
+      text-align: center;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 20px 20px 20px;
+      padding: 10px 10px 10px 10px;
+      box-shadow: 0 5px 10px #000;
+
+      .imagen {
+        width: 100%;
+
+      }
+
+      .descripcion-producto {
+        padding: 12px;
         margin-bottom: 10px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
 
-    .exterior-cards{
-        background: #6b3535;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        .listas-descripcion-producto {
+          text-decoration: none;
+          list-style: none;
+          padding-left: 0;
 
-        .interior-cards {
+        }
+
+        .boton-comprar {
+          text-decoration: none;
+          color: black;
+          background-color: #f07a0c;
+          padding: 8px;
+          border-radius: 5px;
+
+          .a {
             color: white;
-            width: 250px;
-            border: solid black 1px;
-            background-color: rgb(145, 32, 32);
-            align-items: center;
-            text-align: center;
-            border-radius: 10px;
-            display: flex;
-            flex-direction:column;
-            align-items: center;
-            margin: 20px 20px 20px 20px;
-            padding: 10px 10px 10px 10px;
-            box-shadow: 0 5px 10px #000;
+          }
 
-            .imagen{
-                width: 100%; 
-            
-            }
-
-            .descripcion-producto{
-                padding: 12px;
-                margin-bottom: 10px;
-
-                .listas-descripcion-producto{
-                    text-decoration: none;
-                    list-style: none;
-                    padding-left: 0;
-                
-                }
-
-                .boton-comprar{
-                    text-decoration: none;
-                    color: black;
-                    background-color: #f07a0c;
-                    padding: 8px;
-                    border-radius: 5px;
-
-                    .a{
-                        color:white;
-                    }
-                    
-                }
-                
-            }
-            
-        
         }
-    
+
+      }
+
+
     }
 
-    .mensaje-suscripcion{
-        margin: 00px;
-        font-size: 18px;
-        text-align: center;
-        line-height: 55px;
+  }
 
-        .input{
-            width: 140px;
-            height: 32px;
-        }
+  .mensaje-suscripcion {
+    margin: 00px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 55px;
+
+    .input {
+      width: 140px;
+      height: 32px;
+    }
+  }
+
+  @-webkit-keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+      transform: translateZ(-700px);
+      opacity: 0;
     }
 
-    @-webkit-keyframes tracking-in-expand-fwd {
-        0% {
-          letter-spacing: -0.5em;
-          -webkit-transform: translateZ(-700px);
-                  transform: translateZ(-700px);
-          opacity: 0;
-        }
-        40% {
-          opacity: 0.6;
-        }
-        100% {
-          -webkit-transform: translateZ(0);
-                  transform: translateZ(0);
-          opacity: 1;
-        }
-      }
-      @keyframes tracking-in-expand-fwd {
-        0% {
-          letter-spacing: -0.5em;
-          -webkit-transform: translateZ(-700px);
-                  transform: translateZ(-700px);
-          opacity: 0;
-        }
-        40% {
-          opacity: 0.6;
-        }
-        100% {
-          -webkit-transform: translateZ(0);
-                  transform: translateZ(0);
-          opacity: 1;
-        }
-      }
-      
-      
-      
-      
+    40% {
+      opacity: 0.6;
+    }
+
+    100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+      transform: translateZ(-700px);
+      opacity: 0;
+    }
+
+    40% {
+      opacity: 0.6;
+    }
+
+    100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
 
 
-    
-      
+
+
+
+
+
+
 }

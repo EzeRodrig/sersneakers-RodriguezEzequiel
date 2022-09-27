@@ -1,36 +1,37 @@
-.fondo-main{
+.fondo-main {
     min-height: 80vh;
-    .titulo-de-seccion{
-   
+
+    .titulo-de-seccion {
+
         @extend %titulos-cada-seccion;
     }
 
-    .nosotros{
+    .nosotros {
 
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
         align-items: center;
-        
-        
 
-        .accordion-button{
+
+
+        .accordion-button {
             background-color: brown;
-            color:black;
+            color: black;
             font-weight: bolder;
 
         }
 
-        .accordion-body{
+        .accordion-body {
             background-color: rgba(185, 16, 16, 0.548);
             overflow: hidden;
         }
 
-      
-        
-       
-        
-      
+
+
+
+
+
     }
 }
