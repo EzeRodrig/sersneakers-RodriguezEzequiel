@@ -16,9 +16,15 @@
         margin: 10px;
         color:white;
         font-weight:100 black;
-        font-size: 30px; 
+        font-size: 30px;
+        
         
 
+    }
+
+    .tracking-in-expand-fwd {
+        -webkit-animation: tracking-in-expand-fwd 2s infinite ;
+                animation: tracking-in-expand-fwd 2s infinite ;
     }
         
     .titulo-marcas{
@@ -99,4 +105,45 @@
             height: 32px;
         }
     }
+
+    @-webkit-keyframes tracking-in-expand-fwd {
+        0% {
+          letter-spacing: -0.5em;
+          -webkit-transform: translateZ(-700px);
+                  transform: translateZ(-700px);
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          -webkit-transform: translateZ(0);
+                  transform: translateZ(0);
+          opacity: 1;
+        }
+      }
+      @keyframes tracking-in-expand-fwd {
+        0% {
+          letter-spacing: -0.5em;
+          -webkit-transform: translateZ(-700px);
+                  transform: translateZ(-700px);
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          -webkit-transform: translateZ(0);
+                  transform: translateZ(0);
+          opacity: 1;
+        }
+      }
+      
+      
+      
+      
+
+
+    
+      
 }

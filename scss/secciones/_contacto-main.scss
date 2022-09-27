@@ -6,6 +6,16 @@
         @extend %titulos-cada-seccion;
     }
 
+    .contenido-contacto {
+        font-size: 18px;
+        max-width: 800px;
+        font-style: oblique;
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
     .formulario-contacto{
         line-height: 40px;
         text-align: center;

@@ -36,6 +36,9 @@
     color: white;
     font-weight: 100 black;
     font-size: 30px; }
+  .fondo-main .tracking-in-expand-fwd {
+    -webkit-animation: tracking-in-expand-fwd 2s infinite;
+    animation: tracking-in-expand-fwd 2s infinite; }
   .fondo-main .titulo-marcas {
     color: black;
     font-size: 45px;
@@ -88,6 +91,32 @@
     .fondo-main .mensaje-suscripcion .input {
       width: 140px;
       height: 32px; }
+
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }
+
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }
 
 header .fondo-header {
   top: 0;
@@ -154,7 +183,9 @@ header .fondo-header {
     justify-content: center;
     align-items: center; }
     .fondo-main .nosotros .accordion-button {
-      background-color: brown; }
+      background-color: brown;
+      color: black;
+      font-weight: bolder; }
     .fondo-main .nosotros .accordion-body {
       background-color: rgba(185, 16, 16, 0.548);
       overflow: hidden; }
@@ -196,6 +227,14 @@ header .fondo-header {
 .fondo-main {
   min-height: 80vh;
   background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%); }
+  .fondo-main .contenido-contacto {
+    font-size: 18px;
+    max-width: 800px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px; }
   .fondo-main .formulario-contacto {
     line-height: 40px;
     text-align: center;
